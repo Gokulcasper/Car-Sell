@@ -18,7 +18,7 @@
   outline: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -29,7 +29,7 @@ html {
 }
 
 section {
-  padding: 2rem;
+  padding: 2rem 9%;
 }
 
 .heading {
@@ -66,6 +66,7 @@ section {
   font-size: 1.7rem;
   cursor: pointer;
   padding: 0.8rem 2rem;
+  text-align: center;
 }
 
 .btn:hover {
@@ -77,7 +78,7 @@ section {
   left: 0;
   top: 0;
   right: 0;
-  z-index: 999;
+  z-index: 1000;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -86,7 +87,7 @@ section {
 }
 
 .header .logo {
-  color: var(--blaclogin-form-containerk);
+  color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -97,7 +98,7 @@ section {
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: var(--blaclogin-form-containerk);
+  color: var(--black);
   padding: 0 1rem;
 }
 
@@ -230,7 +231,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2.5rem;
   background: #eee;
-  padding: 30px 40px;
+  /* padding: 30px 40px; */
 }
 
 .icons-container .icons {
@@ -322,7 +323,6 @@ section {
 }
 
 .vehicles .vehicles-slider .box .content span {
-  font-size: 1.7rem;
   color: var(--light-color);
   font-weight: normal;
 }
@@ -347,14 +347,17 @@ section {
 
 .services .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45rem, 0fr));
+  grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
   justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
+  width: 100%;
+  /* margin-left: 10rem;
+  margin-right: 10rem;*/
 }
 
 .services .box-container .box {
   text-align: center;
-  padding: 4rem;
+  padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   border: var(--border);
@@ -393,6 +396,48 @@ section {
 
 .services .box-container .box:hover p {
   color: #eee;
+}
+
+.featured .featured-slider {
+  /* margin-left: 10rem;
+  margin-right: 10rem; */
+  padding-bottom: 4rem;
+}
+
+.featured .featured-slider .box {
+  text-align: center;
+  padding: 5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  border-radius: 0.5rem;
+}
+
+.featured .featured-slider .box img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.featured .featured-slider .box:hover img {
+  transform: scale(1.2);
+}
+
+.featured .featured-slider .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.featured .featured-slider .box .stars {
+  padding: 1rem 0;
+}
+
+.featured .featured-slider .box .stars i {
+  font-size: 1.7rem;
+  color: var(--yellow);
+}
+
+.featured .featured-slider .box .price {
+  font-size: 2.5rem;
+  color: var(--black);
 }
 
 /* media Queries */
