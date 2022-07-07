@@ -231,7 +231,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2.5rem;
   background: #eee;
-  /* padding: 30px 40px; */
 }
 
 .icons-container .icons {
