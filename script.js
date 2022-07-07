@@ -55,7 +55,7 @@ var swiper = new Swiper(".vehicles-slider", {
   grabCursor: true,
   centeredSlides: true,
   autoplay: {
-    delay: 5000,
+    delay: 3500,
     disableOnInteraction: false,
   },
   pagination: {
@@ -82,7 +82,7 @@ var swiper = new Swiper(".featured-slider", {
   grabCursor: true,
   centeredSlides: true,
   autoplay: {
-    delay: 6000,
+    delay: 4000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -109,7 +109,7 @@ var swiper = new Swiper(".reviews-slider", {
   grabCursor: true,
   centeredSlides: true,
   autoplay: {
-    delay: 6000,
+    delay: 5000,
     disableOnInteraction: false,
   },
   pagination: {
